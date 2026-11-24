@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(202, 202, 202);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.register-card{
+    background-color: white;
+    width: 100%;
+    max-width: 320px;
+    margin: 100px auto;
+    padding: 55px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.register-card h2{
+    margin: 0;
+    margin-bottom: 25px;
+}
+
+.back p{
+    text-align: left;
+    font-size: 16px;
+}
+
+.input-info{
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.input-info label{
+    display: block;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.input-info input{
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.input-info input:focus{
+    outline: none;
+    border-color: #858585;
+}
+
+.register-bt{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    background-color: #070707;
+    color: #ffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.register-bt:hover{
+    background-color: #3f3f3f;
+}
+
+p a{
+    text-decoration: none;
+    color: #666666;
+}
+
+p a:hover{
+    text-decoration: underline;
+}
